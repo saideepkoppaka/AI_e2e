@@ -1,0 +1,22 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# VSCode and other IDE stuff
+.vscode/
+*.swp
+
+# Temporary files
+*.log
+*.tmp
