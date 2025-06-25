@@ -130,10 +130,6 @@ Full transformer implementation:
 
 ---
 
-> **Note:** More notebooks may exist. [Browse all notebooks here.](https://github.com/saideepkoppaka/AI_e2e/search?q=extension%3Aipynb&type=code)
-
----
-
 ## ✨ Author
 
 Maintained by [saideepkoppaka](https://github.com/saideepkoppaka)
