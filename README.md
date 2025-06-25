@@ -129,6 +129,50 @@ Full transformer implementation:
 - Attention mask, inference, and advanced logic
 
 ---
+## 📁 Directory Structure
+
+- `collab_notebooks/`: Contains Google Colaboratory notebooks. These are self-contained and may install their own dependencies inside the notebook.
+- Other `.ipynb` files at the root or in other directories: Designed to be run locally using the repo's `requirements.txt`.
+
+---
+
+### Notebooks in `collab_notebooks/` (Colab-ready)
+
+#### 1. `Finetuning_101.ipynb`
+**Purpose:**  
+Covers the basics of fine-tuning machine learning models, likely including how to adapt a pre-trained model to a custom dataset using modern libraries (such as Hugging Face or PyTorch).  
+**Features:**  
+- Step-by-step walkthrough of the fine-tuning process
+- Includes code cells to install required packages directly in Colab
+
+#### 2. `Hugging_face_101.ipynb`
+**Purpose:**  
+An introduction to the Hugging Face ecosystem, focusing on loading, using, and possibly fine-tuning transformer models for NLP tasks.  
+**Features:**  
+- Demonstrates use of the `transformers` library
+- May cover pipelines for text classification, generation, etc.
+
+#### 3. `Langgraph_basic.ipynb`
+**Purpose:**  
+An introduction to LangGraph, likely walking through basic graph-based language modeling or knowledge graph techniques.  
+**Features:**  
+- Installation and usage of relevant libraries inside Colab
+- Example workflows or pipelines
+
+#### 4. `RAG.ipynb`
+**Purpose:**  
+Covers Retrieval-Augmented Generation (RAG), combining retrieval models with generative models for enhanced QA or knowledge-based tasks.  
+**Features:**  
+- Demonstrates how to integrate an external knowledge base with a language model
+- Shows installation of dependencies within the notebook
+
+#### 5. `langchain_prompt_engineering.ipynb`
+**Purpose:**  
+A practical guide to prompt engineering using the LangChain framework, optimizing prompts for various LLM tasks.  
+**Features:**  
+- Shows how to use LangChain tools for prompt design and evaluation
+- Installs its own dependencies in Colab
+
 
 ## ✨ Author
 
