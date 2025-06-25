@@ -1,6 +1,6 @@
 # AI_e2e: End-to-End AI Fundamentals
 
-This repository features a series of Jupyter notebooks designed to help you master Python, data science, statistics, machine learning, deep learning, and NLP, with a special focus on building models from scratch.
+This repository features a series of Jupyter notebooks designed to help you master Python, data science, statistics, machine learning, deep learning, NLP, RAG, and AI Agents with a special focus on generative AI.
 
 ---
 
