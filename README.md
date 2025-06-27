@@ -147,7 +147,7 @@ Covers the basics of fine-tuning machine learning models, likely including how t
 
 #### 2. `Hugging_face_101.ipynb`
 **Purpose:**  
-An introduction to the Hugging Face ecosystem, focusing on loading, using, and possibly fine-tuning transformer models for NLP tasks.  
+An introduction to the Hugging Face ecosystem, focusing on loading and using LLM models.  
 **Features:**  
 - Demonstrates use of the `transformers` library
 - May cover pipelines for text classification, generation, etc.
