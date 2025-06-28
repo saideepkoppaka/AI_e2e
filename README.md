@@ -173,6 +173,22 @@ A practical guide to prompt engineering using the LangChain framework, optimizin
 - Shows how to use LangChain tools for prompt design and evaluation
 - Installs its own dependencies in Colab
 
+#### 6. `Langgraph_agent_with_tools_py.ipynb`
+**Purpose:** 
+Showcases a modular, multi-agent Stack Overflow-style assistant that answers Python and data engineering queries using a combination of custom knowledge base retrieval, real-time web search, and LLM summarization, all orchestrated via LangGraph.
+**Features:** 
+Integrates Tavily Search API for up-to-date web answers
+Uses a local FAISS vector store for fast retrieval from a Stack Overflow-style KB
+Leverages OpenAI GPT-4o for answer synthesis and summarization
+Clearly separates “tools” (API/function calls) and “agents” (decision logic)
+Asynchronous execution for efficient API use
+Automatically logs unanswered/uncertain questions for review
+**System Workflow:**
+Knowledge Base Agent tries to answer from the KB
+If uncertain, triggers a Web Search Agent
+Summarization Agent combines and refines all results using LLMs
+Logger Agent stores challenging queries for future improvement
+
 
 ## ✨ Author
 
