@@ -176,6 +176,7 @@ A practical guide to prompt engineering using the LangChain framework, optimizin
 #### 6. `Langgraph_agent_with_tools_py.ipynb`
 **Purpose:** 
 Showcases a modular, multi-agent Stack Overflow-style assistant that answers Python and data engineering queries using a combination of custom knowledge base retrieval, real-time web search, and LLM summarization, all orchestrated via LangGraph.
+
 **Features:** 
 - Integrates Tavily Search API for up-to-date web answers
 - Uses a local FAISS vector store for fast retrieval from a Stack Overflow-style KB
@@ -183,6 +184,7 @@ Showcases a modular, multi-agent Stack Overflow-style assistant that answers Pyt
 - Clearly separates “tools” (API/function calls) and “agents” (decision logic)
 - Asynchronous execution for efficient API use
 - Automatically logs unanswered/uncertain questions for review
+
 **System Workflow:**
 - Knowledge Base Agent tries to answer from the KB
 - If uncertain, triggers a Web Search Agent
